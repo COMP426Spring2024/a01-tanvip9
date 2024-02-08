@@ -1,0 +1,123 @@
+body {
+    font-family: 'Lucida Console', fantasy;
+    margin: 0;
+    background-color: #f0ebcfbf; /* Changed background color */
+}
+
+.hero {
+    padding: 15px;
+    background-image: url('images/background.jpg');
+    background-color: #3a505e;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav li {
+    float: left;
+}
+
+.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.title-container {
+    text-align: center;
+    position: relative;
+}
+
+.title {
+    font-family: 'Oldion';  
+    font-size: 48px; 
+    margin-bottom: 20px; 
+}
+
+.wrap {
+    float: left; 
+    margin: 5px;
+    word-wrap: break-word;
+}
+
+.story-text {  
+    font-family: 'Lucida Console', fantasy;                                          
+    font-size: 18px; 
+    line-height: 1.6; 
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.character-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.character-table th,
+.character-table td {
+    border: 1px solid #000; 
+    padding: 8px;
+}
+
+.character-table th {
+    background-color: #dddddda8; 
+}
+
+.character-table tbody tr:nth-child(odd) {
+    background-color: #fff7f7a8; 
+}
+.character-table tbody tr:nth-child(even) {
+    background-color: #dddddda8; 
+}
+
+.image-container {
+    text-align: center; 
+    margin-right: 20px; /* Consolidated with previous .image-container rule */
+}
+
+.image-wrapper {
+    width: 400px; 
+    height: 300px;
+    margin: 0 auto; 
+    border: 10px solid black;
+}
+
+.image-wrapper img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+.book-info {
+    display: flex;
+    align-items: center;
+}
+
+#home-pic-container {
+    width: 100%;
+}
+
+#home-pic-container img {
+    width: 100%; 
+    height: auto;
+    display: block;
+}
