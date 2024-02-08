@@ -1,7 +1,7 @@
 body {
     font-family: 'Lucida Console', fantasy;
     margin: 0;
-    background-color: #f0ebcfbf; /* Changed background color */
+    background-color: #f0ebcfbf; 
 }
 
 .hero {
@@ -90,7 +90,7 @@ body {
 
 .image-container {
     text-align: center; 
-    margin-right: 20px; /* Consolidated with previous .image-container rule */
+    margin-right: 20px; 
 }
 
 .image-wrapper {
